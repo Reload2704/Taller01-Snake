@@ -39,7 +39,6 @@ public class GameController implements Runnable {
 	 * going to be used in the List
 	 */
 
-	 
 	/** The thread which the game runs in. */
 	private Thread gameThread;
 
