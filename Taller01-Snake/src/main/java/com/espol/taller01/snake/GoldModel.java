@@ -6,6 +6,8 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.text.Position;
+
 /**
  * Sample game for illustration. Intentionally stupid; more interesting
  * games to be provided by students.
@@ -62,7 +64,7 @@ public class GoldModel extends GameModel {
 	
 			
 	/** Graphical representation of the collector */
-	private static final GameTile COLLECTOR_TILE = new RoundTile(Color.BLACK,
+	private static final GameTile COLLECTOR_TILE = new RoundTile(Color.LIGHT_GRAY ,
 			Color.RED, 2.0);
 
 	/** Graphical representation of a blank tile. */
