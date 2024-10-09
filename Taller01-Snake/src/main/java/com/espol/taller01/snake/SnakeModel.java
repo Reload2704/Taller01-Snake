@@ -38,6 +38,7 @@ public class SnakeModel extends GameModel {
 		}
 	}
 
+	
 
 	/*
 	 * The following GameTile objects are used only
